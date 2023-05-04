@@ -1,0 +1,72 @@
+body {
+  margin-top: 100px;
+  background-color: #1f2937;
+  flex-direction: column;
+}
+
+.image {
+height: 300px;
+margin-top: 500px;
+margin-left: 300px;
+}
+
+#two {
+  margin-top: 500px;
+  margin-left: -620px;
+  font-size: 18px;
+  color: #E5E7EB
+}
+
+
+#one {
+margin-top: 400px;
+font-size: 48px;
+font-weight: bold;
+color: #F9FAF8
+
+}
+
+.create{
+content: url('https://japan-forward.com/wp-content/uploads/2022/02/Mt-Fuji-Eruption-Volcano-006-1320x889.jpg');
+}
+
+
+
+header {
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
+font-size: 24px;
+font-style: bold;
+font-family: sans-serif;
+color: #F9FAF8
+
+
+
+}
+
+header * {
+
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+header li {
+margin: 10px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: bold;
+    font-family: inherit;
+    color: #E5E7EB
+
+}
